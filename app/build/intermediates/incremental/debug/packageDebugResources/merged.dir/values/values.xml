@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ads_orange">#FF9800</color>
+    <color name="black">#FF000000</color>
+    <color name="bottom_bar_gray">#E0E0E0</color>
+    <color name="brandAccent">#FFC107</color>
+    <color name="brandPrimary">#1B5E20</color>
+    <color name="brandSecondary">#4CAF50</color>
+    <color name="category_blue">#2196F3</color>
+    <color name="category_gray">#9E9E9E</color>
+    <color name="category_red">#F44336</color>
+    <color name="header_yellow">#FFD700</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="ads_title">NOME DO ANUNCIANTE</string>
+    <string name="anuncios_gratis">(anúncios grátis)</string>
+    <string name="app_name">apptudonosso</string>
+    <string name="at_symbol">@</string>
+    <string name="close_button">X</string>
+    <string name="comercio_nosso">COMÉRCIO NOSSO</string>
+    <string name="cpf_label">CPF</string>
+    <string name="d_mais_lojas">D+ LOJAS</string>
+    <string name="firebase_database_url" translatable="false">https://apptudonosso-3c8fe-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">94808031334</string>
+    <string name="google_api_key" translatable="false">AIzaSyD1g9kM_Ums5wT64GYv8gMkK0L86kS4esM</string>
+    <string name="google_app_id" translatable="false">1:94808031334:android:1e4910f5ace18699472da7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD1g9kM_Ums5wT64GYv8gMkK0L86kS4esM</string>
+    <string name="google_storage_bucket" translatable="false">apptudonosso-3c8fe.firebasestorage.app</string>
+    <string name="header_title">NOSSO GUIA DE COMPRAS</string>
+    <string name="instrucoes">Instruções</string>
+    <string name="lojas_label">Lojas</string>
+    <string name="project_id" translatable="false">apptudonosso-3c8fe</string>
+    <string name="sorteio">SORTEIO</string>
+    <string name="supermercados">SUPERMERCADOS</string>
+    <string name="tela_inicial">TELA INICIAL</string>
+    <string name="timer_placeholder">00:00:00</string>
+    <string name="utilidade_publica">UTILIDADE PÚBLICA</string>
+    <style name="Theme.NossoGuiaDeCompras" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

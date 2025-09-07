@@ -1,0 +1,428 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nossoguiadecompras"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
+11-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:25:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+15-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:26:5-88
+15-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:26:22-85
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:27:5-82
+16-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:27:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\e4dc8002e462d194375c754bf066703d\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+18-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\e4dc8002e462d194375c754bf066703d\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+19
+20    <permission
+20-->[androidx.core:core:1.13.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\2b802a999041cc5c6c600e1c733c62ef\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.nossoguiadecompras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\2b802a999041cc5c6c600e1c733c62ef\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\2b802a999041cc5c6c600e1c733c62ef\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.nossoguiadecompras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\2b802a999041cc5c6c600e1c733c62ef\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\2b802a999041cc5c6c600e1c733c62ef\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:4:5-22:19
+27        android:allowBackup="true"
+27-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:5:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\2b802a999041cc5c6c600e1c733c62ef\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@android:drawable/sym_def_app_icon"
+31-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:6:9-58
+32        android:label="@string/app_name"
+32-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:7:9-41
+33        android:roundIcon="@android:drawable/sym_def_app_icon"
+33-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:8:9-63
+34        android:supportsRtl="true"
+34-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:9:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.NossoGuiaDeCompras" >
+36-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:10:9-56
+37        <activity
+37-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:12:9-20:20
+38            android:name="com.nossoguiadecompras.MainActivity"
+38-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:13:13-41
+39            android:exported="true"
+39-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:14:13-36
+40            android:theme="@style/Theme.NossoGuiaDeCompras" >
+40-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:15:13-60
+41            <intent-filter>
+41-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:16:13-19:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:17:17-69
+42-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:17:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:18:17-77
+44-->C:\Projetos\apptudonosso\app\src\main\AndroidManifest.xml:18:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\835fccf153378c1088f9631c00ef6a57\transformed\jetified-firebase-auth-ktx-23.0.0\AndroidManifest.xml:8:9-14:19
+49            android:name="com.google.firebase.components.ComponentDiscoveryService"
+49-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\835fccf153378c1088f9631c00ef6a57\transformed\jetified-firebase-auth-ktx-23.0.0\AndroidManifest.xml:9:13-84
+50            android:directBootAware="true"
+50-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+51            android:exported="false" >
+51-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\835fccf153378c1088f9631c00ef6a57\transformed\jetified-firebase-auth-ktx-23.0.0\AndroidManifest.xml:10:13-37
+52            <meta-data
+52-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\835fccf153378c1088f9631c00ef6a57\transformed\jetified-firebase-auth-ktx-23.0.0\AndroidManifest.xml:11:13-13:85
+53                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+53-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\835fccf153378c1088f9631c00ef6a57\transformed\jetified-firebase-auth-ktx-23.0.0\AndroidManifest.xml:12:17-119
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-auth-ktx:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\835fccf153378c1088f9631c00ef6a57\transformed\jetified-firebase-auth-ktx-23.0.0\AndroidManifest.xml:13:17-82
+55            <meta-data
+55-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+56                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+56-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+58            <meta-data
+58-->[com.google.firebase:firebase-firestore-ktx:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8005ef684698f753252bf4f46764faf8\transformed\jetified-firebase-firestore-ktx-25.1.0\AndroidManifest.xml:12:13-14:85
+59                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+59-->[com.google.firebase:firebase-firestore-ktx:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8005ef684698f753252bf4f46764faf8\transformed\jetified-firebase-firestore-ktx-25.1.0\AndroidManifest.xml:13:17-129
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-firestore-ktx:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8005ef684698f753252bf4f46764faf8\transformed\jetified-firebase-firestore-ktx-25.1.0\AndroidManifest.xml:14:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\72503c2dc0a8b8313bafb1ae579674fa\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:17:13-19:85
+62                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+62-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\72503c2dc0a8b8313bafb1ae579674fa\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:18:17-122
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\72503c2dc0a8b8313bafb1ae579674fa\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:19:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\72503c2dc0a8b8313bafb1ae579674fa\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:20:13-22:85
+65                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+65-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\72503c2dc0a8b8313bafb1ae579674fa\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:21:17-111
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-firestore:25.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\72503c2dc0a8b8313bafb1ae579674fa\transformed\jetified-firebase-firestore-25.1.0\AndroidManifest.xml:22:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-analytics-ktx:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\e2663539082d6eea7997bce46aada57d\transformed\jetified-firebase-analytics-ktx-22.1.0\AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+68-->[com.google.firebase:firebase-analytics-ktx:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\e2663539082d6eea7997bce46aada57d\transformed\jetified-firebase-analytics-ktx-22.1.0\AndroidManifest.xml:12:17-129
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-analytics-ktx:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\e2663539082d6eea7997bce46aada57d\transformed\jetified-firebase-analytics-ktx-22.1.0\AndroidManifest.xml:13:17-82
+70            <meta-data
+70-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:37:13-39:85
+71                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+71-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:38:17-139
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:39:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f8b7cb2a69adc9a7435cb0015bc900d6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+74                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+74-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f8b7cb2a69adc9a7435cb0015bc900d6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f8b7cb2a69adc9a7435cb0015bc900d6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f8b7cb2a69adc9a7435cb0015bc900d6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+77-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f8b7cb2a69adc9a7435cb0015bc900d6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f8b7cb2a69adc9a7435cb0015bc900d6\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\d79157ae4e78cb350c0ca74bce4bff21\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+80-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\d79157ae4e78cb350c0ca74bce4bff21\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\d79157ae4e78cb350c0ca74bce4bff21\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+83                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+83-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+85        </service>
+86
+87        <activity
+87-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+88            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+88-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+93            <intent-filter>
+93-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+94-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+96-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+97-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+98
+99                <data
+99-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+100                    android:host="firebase.auth"
+100-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+101                    android:path="/"
+101-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+102                    android:scheme="genericidp" />
+102-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+106            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+106-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+112-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+114-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+115-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+116
+117                <data
+117-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+118                    android:host="firebase.auth"
+118-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+119                    android:path="/"
+119-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+120                    android:scheme="recaptcha" />
+120-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\497aed395b7a6fbd35f8313101feed87\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+121            </intent-filter>
+122        </activity>
+123
+124        <service
+124-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+125            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+125-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+126            android:enabled="true"
+126-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+127            android:exported="false" >
+127-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+128            <meta-data
+128-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+129                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+129-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+130                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+130-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+131        </service>
+132
+133        <activity
+133-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+134            android:name="androidx.credentials.playservices.HiddenActivity"
+134-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+135            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+135-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+136            android:enabled="true"
+136-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+137            android:exported="false"
+137-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+138            android:fitsSystemWindows="true"
+138-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+139            android:theme="@style/Theme.Hidden" >
+139-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\victo.VITAL\.gradle\caches\transforms-3\a97e8c4a277b0cd4516e852b7443d5e8\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+140        </activity>
+141        <activity
+141-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+142            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+142-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+143            android:excludeFromRecents="true"
+143-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+146        <!--
+147            Service handling Google Sign-In user revocation. For apps that do not integrate with
+148            Google Sign-In, this service will never be started.
+149        -->
+150        <service
+150-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+151            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+151-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+152            android:exported="true"
+152-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+153            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+153-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+154            android:visibleToInstantApps="true" />
+154-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\8ddde532103232e9766e5af50254e5ab\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f400921f5b188a17eb9f566359c94a7e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f400921f5b188a17eb9f566359c94a7e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f400921f5b188a17eb9f566359c94a7e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\f400921f5b188a17eb9f566359c94a7e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+160
+161        <property
+161-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:30:9-32:61
+162            android:name="android.adservices.AD_SERVICES_CONFIG"
+162-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:31:13-65
+163            android:resource="@xml/ga_ad_services_config" />
+163-->[com.google.android.gms:play-services-measurement-api:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6de6a3c2aae889a65323058fd89d885a\transformed\jetified-play-services-measurement-api-22.1.0\AndroidManifest.xml:32:13-58
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+167            android:authorities="com.nossoguiadecompras.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+169            android:exported="false"
+169-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+170            android:initOrder="100" />
+170-->[com.google.firebase:firebase-common:21.0.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\fe1c80076515d7792e032cc54fb6ddb1\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+171
+172        <receiver
+172-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:29:9-33:20
+173            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+173-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:30:13-85
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:31:13-35
+175            android:exported="false" >
+175-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:32:13-37
+176        </receiver>
+177
+178        <service
+178-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:35:9-38:40
+179            android:name="com.google.android.gms.measurement.AppMeasurementService"
+179-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:36:13-84
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:37:13-35
+181            android:exported="false" />
+181-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:38:13-37
+182        <service
+182-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:39:9-43:72
+183            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+183-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:40:13-87
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:41:13-35
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:42:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[com.google.android.gms:play-services-measurement:22.1.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\340f68f22f2a868bb4fff7ac5e060587\transformed\jetified-play-services-measurement-22.1.0\AndroidManifest.xml:43:13-69
+187
+188        <provider
+188-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+189            android:name="androidx.startup.InitializationProvider"
+189-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+190            android:authorities="com.nossoguiadecompras.androidx-startup"
+190-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+191            android:exported="false" >
+191-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+192            <meta-data
+192-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+193                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+193-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+194                android:value="androidx.startup" />
+194-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\6cd85ca636307a559b9670178b7db141\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+195            <meta-data
+195-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo.VITAL\.gradle\caches\transforms-3\c4ff1c7c6d4f8d7cff19532ed94e4e9b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+196                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+196-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo.VITAL\.gradle\caches\transforms-3\c4ff1c7c6d4f8d7cff19532ed94e4e9b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+197                android:value="androidx.startup" />
+197-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo.VITAL\.gradle\caches\transforms-3\c4ff1c7c6d4f8d7cff19532ed94e4e9b\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+198            <meta-data
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+199                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+200                android:value="androidx.startup" />
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+201        </provider>
+202
+203        <uses-library
+203-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\victo.VITAL\.gradle\caches\transforms-3\9cb9883353b1a6f2d43a38bb01194859\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+204            android:name="android.ext.adservices"
+204-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\victo.VITAL\.gradle\caches\transforms-3\9cb9883353b1a6f2d43a38bb01194859\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+205            android:required="false" />
+205-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\victo.VITAL\.gradle\caches\transforms-3\9cb9883353b1a6f2d43a38bb01194859\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+206
+207        <meta-data
+207-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\3b26f2d9dc808acc87b808ed196fe581\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+208            android:name="com.google.android.gms.version"
+208-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\3b26f2d9dc808acc87b808ed196fe581\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+209            android:value="@integer/google_play_services_version" />
+209-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\victo.VITAL\.gradle\caches\transforms-3\3b26f2d9dc808acc87b808ed196fe581\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+210
+211        <receiver
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+212            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+213            android:directBootAware="false"
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+214            android:enabled="true"
+214-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+215            android:exported="true"
+215-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+216            android:permission="android.permission.DUMP" >
+216-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+217            <intent-filter>
+217-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+218                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+218-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+219            </intent-filter>
+220            <intent-filter>
+220-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+221                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+221-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+222            </intent-filter>
+223            <intent-filter>
+223-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+224                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+224-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+225            </intent-filter>
+226            <intent-filter>
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+227                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo.VITAL\.gradle\caches\transforms-3\dd12153388c4135727cb74837c6a687d\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+228            </intent-filter>
+229        </receiver>
+230    </application>
+231
+232</manifest>

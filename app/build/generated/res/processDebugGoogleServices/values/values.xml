@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://apptudonosso-3c8fe-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">94808031334</string>
+    <string name="google_api_key" translatable="false">AIzaSyD1g9kM_Ums5wT64GYv8gMkK0L86kS4esM</string>
+    <string name="google_app_id" translatable="false">1:94808031334:android:1e4910f5ace18699472da7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD1g9kM_Ums5wT64GYv8gMkK0L86kS4esM</string>
+    <string name="google_storage_bucket" translatable="false">apptudonosso-3c8fe.firebasestorage.app</string>
+    <string name="project_id" translatable="false">apptudonosso-3c8fe</string>
+</resources>

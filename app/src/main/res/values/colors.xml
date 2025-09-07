@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="black">#FF000000</color>
+  <color name="white">#FFFFFFFF</color>
+
+  <!-- Brand Colors -->
+  <color name="brandPrimary">#1B5E20</color>
+  <color name="brandSecondary">#4CAF50</color>
+  <color name="brandAccent">#FFC107</color>
+
+  <!-- UI Colors -->
+  <color name="header_yellow">#FFD700</color>
+  <color name="ads_orange">#FF9800</color>
+  <color name="category_red">#F44336</color>
+  <color name="category_gray">#9E9E9E</color>
+  <color name="category_blue">#2196F3</color>
+  <color name="bottom_bar_gray">#E0E0E0</color>
+</resources>

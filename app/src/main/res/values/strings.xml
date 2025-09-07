@@ -1,0 +1,29 @@
+<resources>
+  <!-- App -->
+  <string name="app_name">apptudonosso</string>
+
+  <!-- Header -->
+  <string name="header_title">NOSSO GUIA DE COMPRAS</string>
+
+  <!-- Action bar -->
+  <string name="tela_inicial">TELA INICIAL</string>
+  <string name="instrucoes">Instruções</string>
+
+  <!-- Ads section -->
+  <string name="ads_title">NOME DO ANUNCIANTE</string>
+
+  <!-- Categories -->
+  <string name="supermercados">SUPERMERCADOS</string>
+  <string name="d_mais_lojas">D+ LOJAS</string>
+  <string name="utilidade_publica">UTILIDADE PÚBLICA</string>
+  <string name="comercio_nosso">COMÉRCIO NOSSO</string>
+  <string name="anuncios_gratis">(anúncios grátis)</string>
+  <string name="lojas_label">Lojas</string>
+
+  <!-- Bottom bar -->
+  <string name="timer_placeholder">00:00:00</string>
+  <string name="sorteio">SORTEIO</string>
+  <string name="cpf_label">CPF</string>
+  <string name="at_symbol">@</string>
+  <string name="close_button">X</string>
+</resources>

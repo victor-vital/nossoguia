@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "94808031334",
+    "firebase_url": "https://apptudonosso-3c8fe-default-rtdb.firebaseio.com",
+    "project_id": "apptudonosso-3c8fe",
+    "storage_bucket": "apptudonosso-3c8fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94808031334:android:1e4910f5ace18699472da7",
+        "android_client_info": {
+          "package_name": "com.nossoguiadecompras"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1g9kM_Ums5wT64GYv8gMkK0L86kS4esM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
